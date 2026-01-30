@@ -36,3 +36,14 @@ root_agent = LlmAgent(
 """,
     description="Vertex AI Searchデータストアを検索して質問に回答するエージェント",
 )
+
+
+
+
+2026-01-30 10:57:18,686 - INFO - envs.py:47 - Loaded .env file for vertex_search at /mnt/c/Users/s-teshigahara/OneDrive - 株式会社システムサポート/デスクトップ/BQ_remote/.env
+2026-01-30 10:57:18,691 - INFO - envs.py:47 - Loaded .env file for vertex_search at /mnt/c/Users/s-teshigahara/OneDrive - 株式会社システムサポート/デスクトップ/BQ_remote/.env
+2026-01-30 10:57:18,729 - INFO - agent_loader.py:129 - Found root_agent in vertex_search.agent
+2026-01-30 10:57:19,257 - INFO - google_llm.py:181 - Sending out request, model: gemini-2.0-flash, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-01-30 10:57:19,257 - INFO - models.py:7012 - AFC is enabled with max remote calls: 10.
+2026-01-30 10:57:33,487 - INFO - _client.py:1740 - HTTP Request: POST https://us-central1-aiplatform.googleapis.com/v1beta1/projects/sts-da-agentspace-dev/locations/us-central1/publishers/google/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2026-01-30 10:57:33,489 - INFO - google_llm.py:246 - Response received from the model.
